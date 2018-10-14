@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Visual concept for ChannelFix vote buttons." />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" />
+        <title>ChannelFix Vote Button Concepts</title>
+    </head>
+    <body>
+        <main>
+            <div class="vote-button__trigger">
+                <div class="vote-button__container">Vote
+                    <div class="vote-button__bg"></div>
+                </div>
+                <div class="vote-button__val">+1</div>
+            </div>
+            <div class="supervote-button__trigger">
+                <img src="https://www.svgrepo.com/show/15477/coin.svg" alt="Coin SVG Vector" />
+                <div class="vote-button__val">+10</div>
+            </div>
+        </main>
+
+        <div class="popup-container hidden">
+            <div class="popup">
+                <p>
+                    You currently have <span>10 Tokens</span>. Supervote this entry for <strong>1 Token</strong>?
+                </p>
+
+                <div class="buttons">
+                    <a href="" class="yes">Supervote</a>
+                    <a href="" class="no">Cancel</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
